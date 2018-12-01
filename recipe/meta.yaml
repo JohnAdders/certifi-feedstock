@@ -37,6 +37,9 @@ about:
   dev_url: https://github.com/JohnAdders/python-certifi
   doc_source_url: https://github.com/certifi/certifi.io/blob/master/README.rst
 
+channel_targets:
+  - johnad main
+
 extra:
   recipe-maintainers:
     - johnad
