@@ -17,9 +17,9 @@ hosts.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/JohnAdders/certifi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/JohnAdders/certifi-feedstock)
-[![OSX](https://img.shields.io/travis/JohnAdders/certifi-feedstock/master.svg?label=macOS)](https://travis-ci.org/JohnAdders/certifi-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/JohnAdders/certifi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/JohnAdders/certifi-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/certifi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/certifi-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/certifi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/certifi-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/certifi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/certifi-feedstock/branch/master)
 
 Current release info
 ====================
@@ -96,7 +96,7 @@ opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the JohnAdders/certifi-feedstock are
+Note that all branches in the conda-forge/certifi-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
