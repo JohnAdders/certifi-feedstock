@@ -1,3 +1,27 @@
+  
+channels:
+  # Needed for appveyor
+  sources:
+    - johnad
+    - conda-forge
+    - defaults
+  # Needed for readme generation
+  targets:
+  - [johnad, main]
+
+# Needed for ci_support
+channel_sources:
+- johnad,conda-forge,defaults
+
+# Needed for ci_support
+channel_targets:
+- johnad main
+
+# Needed for something else
+github:
+  user_or_org: JohnAdders
+  branch_name: master
+
 compiler_stack: comp7
 max_py_ver: '37'
 max_r_ver: '35'
@@ -8,9 +32,9 @@ provider:
   win: appveyor
 
 travis:
-  secure:
+  secure: 
     BINSTAR_TOKEN: s5ivpOfdyb55272PUlD2m9jxOXh1Corc9FoKKE2eu/D8pAZBS8CQfYnBdICXbwtnZcrUALt8R+Hv+FH+9KreE6yaiGCkZKhWw36gIy7/iYIztH40DUERtKN2MpnOMvFtn+7uaoW1WMz/1uVWAHfqCeWum1LwxorNdtnCktuQjfbNQjTMOowaaiL4O/t5+KFsVkP2WBpuS1/SFlqzdqTAYECxAmbEaslOVjs4EupNYhuyi4tjBkgWugIZVh9S3DR1RrlzBgPqWsfTx5PjSSPR11u1QeNb6GFoXk8UJqtsekdiZ/A3+jtyxmtiBNYnneMm1UNmy2JcDd9EegElSQn80l2eqPQKXSxh01yPX5opNtexTAtApO/GeQi+w3v5aYlVyWKjsIYPSdCM9FTw3P1zCsULVdGFlPvedSe/Y1Ion6VoMSI05BgywOxTEb+JmUwPpbAhdhW6GTeZLSpaXOwKgtzLhKF9EAkWiT4erSbDEGoUKiLT/DkJV8p8QkiteuweKuLZ78Gm7/Wc58vbvTe+YnKt16Xmc12XGRW7jQfV+WpZNfJJccufIkH07YaB9pB74sSkZU17QsOu/FKIJ4MX4ZJRWErMInpX7DBxE5RLH7z/i5u8jo0LF+2ebueb9SpEDhBg2QVduSsQNdMVVjMYd0k3+1CK/R7Zd/pxA3rvfwA=
 
 appveyor:
-  secure:
+  secure: 
     BINSTAR_TOKEN: p6dounPSHKjzsxDW9x0GKMMjWaN9yPMAzEh+CFeTcPSAwEknTcgwrRjGX7MM1B0p
