@@ -5,7 +5,7 @@ build_number_decrement:
 channel_sources:
 - conda-forge,defaults
 channel_targets:
-- johnad main
+- conda-forge main
 docker_image:
 - condaforge/linux-anvil
 macos_machine:
