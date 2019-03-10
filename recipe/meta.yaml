@@ -1,4 +1,4 @@
-{% set version = "2018.12.01" %}
+{% set version = "2019.03.09" %}
 {% set name = "certifi" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/JohnAdders/python-{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 06c41d3372ffec1c13868cd22067a4e6aa8ba50e79036609d6b175c1db864803
+  sha256: fc86808d8c4d6f63ce4932b2fc17198b36622a68ade49eb0e2b14a88674e2f85
  
 build:
   number: 1000
@@ -36,9 +36,6 @@ about:
   doc_url: https://pypi.python.org/pypi/certifi
   dev_url: https://github.com/JohnAdders/python-certifi
   doc_source_url: https://github.com/certifi/certifi.io/blob/master/README.rst
-
-channel_targets:
-  - johnad main
 
 extra:
   recipe-maintainers:
