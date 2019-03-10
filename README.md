@@ -82,4 +82,3 @@ Feedstock Maintainers
 =====================
 
 * [@johnad](https://github.com/johnad/)
-

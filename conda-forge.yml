@@ -1,10 +1,9 @@
-  
 channels:
   # Needed for appveyor
   sources:
-    - johnad
-    - conda-forge
-    - defaults
+  - johnad
+  - conda-forge
+  - defaults
   # Needed for readme generation
   targets:
   - [johnad, main]
@@ -32,9 +31,9 @@ provider:
   win: appveyor
 
 travis:
-  secure: 
-    BINSTAR_TOKEN: s5ivpOfdyb55272PUlD2m9jxOXh1Corc9FoKKE2eu/D8pAZBS8CQfYnBdICXbwtnZcrUALt8R+Hv+FH+9KreE6yaiGCkZKhWw36gIy7/iYIztH40DUERtKN2MpnOMvFtn+7uaoW1WMz/1uVWAHfqCeWum1LwxorNdtnCktuQjfbNQjTMOowaaiL4O/t5+KFsVkP2WBpuS1/SFlqzdqTAYECxAmbEaslOVjs4EupNYhuyi4tjBkgWugIZVh9S3DR1RrlzBgPqWsfTx5PjSSPR11u1QeNb6GFoXk8UJqtsekdiZ/A3+jtyxmtiBNYnneMm1UNmy2JcDd9EegElSQn80l2eqPQKXSxh01yPX5opNtexTAtApO/GeQi+w3v5aYlVyWKjsIYPSdCM9FTw3P1zCsULVdGFlPvedSe/Y1Ion6VoMSI05BgywOxTEb+JmUwPpbAhdhW6GTeZLSpaXOwKgtzLhKF9EAkWiT4erSbDEGoUKiLT/DkJV8p8QkiteuweKuLZ78Gm7/Wc58vbvTe+YnKt16Xmc12XGRW7jQfV+WpZNfJJccufIkH07YaB9pB74sSkZU17QsOu/FKIJ4MX4ZJRWErMInpX7DBxE5RLH7z/i5u8jo0LF+2ebueb9SpEDhBg2QVduSsQNdMVVjMYd0k3+1CK/R7Zd/pxA3rvfwA=
+  secure:
+    BINSTAR_TOKEN: D4Ym7Reo6kgXKaVjET22c6nbQgLGCB2fGjJ7x1wPhlKKNIuZLANCb387S9c846xZIPlSQTWnp4l4Dfl5ghWb0yf01W9dXKivy9RuH+riNR0LTmmgvleHDV4HEKZwtFItBxarNSLuVwA88JnaEkLDHn3jwPSJhVtHjCH/hbqr55iztWFgciPD8a/jJgVE1Y6uSlXBSn2adzqucp22UZSOLSgUj8zZ/m75b3aGoy0ZztHOYg8mwhq7/zKT7Qv4dWIq5wy0/VW7n/Qv5Ncghd7Khk5tKFeRCidl2biiFQhY8D0KtBATATQpge5EWGysIO8q0RsOGdIMAU1WjDDP2BeMM+HshnKb0gVau0CdKHN6d8eiHNLisIH9u1Fqrqqoy8y9/XXES08KTVmOJTo7kZtoM87/C2f+kNPpcetHOv8fbpn8LDRNq6oAoczh9VtBopyqKbPBKEOYfqHpNzfyKzYVTTHEYxp1mHC4T0f24122Z+3ulgh/dIitGAfNLZXLMxf6XnGRIh22A5pgy7JCWT6AMN0BzWpGaarJCSUxHMuD0vRQhh0uCv7Kvph+NW8iFoHoTyPqtSHKIj28a16Jo/9J5kCuUyqlERQEtmfZ81nnurRC+E+Fm9Ycj85gPUaH8CM3QpCIxs46ORyGpz6EgaySucaEDlUItgaNk1P+3McTJX0=
 
 appveyor:
-  secure: 
+  secure:
     BINSTAR_TOKEN: p6dounPSHKjzsxDW9x0GKMMjWaN9yPMAzEh+CFeTcPSAwEknTcgwrRjGX7MM1B0p
